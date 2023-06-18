@@ -34,9 +34,13 @@ use the same dictionary you use for normal tokenization.
 
 ## Installation
 
-Cutlet can be installed through pip as usual.
+FYI, this is NOT official cutlet repository, as we remove mojimoji from required
+dependency, thus can effectively skip building process from Cython and does not
+require Microsoft Visual C++ build tool on Windows.
 
-    pip install cutlet
+To install modified version of `cutlet`, simply run following command:
+
+    pip install git+https://github.com/ryuuRyuusei/cutlet-pure@master
 
 Note that if you don't have a MeCab dictionary installed you'll also have to
 install one. If you're just getting started
